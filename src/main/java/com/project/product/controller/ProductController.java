@@ -1,9 +1,9 @@
-package com.project.product.Controller;
+package com.project.product.controller;
 
 import java.util.List;
 
-import com.project.product.Service.ProductService;
 import com.project.product.entity.Product;
+import com.project.product.service.ProductService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

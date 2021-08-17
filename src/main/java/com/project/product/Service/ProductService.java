@@ -1,9 +1,9 @@
-package com.project.product.Service;
+package com.project.product.service;
 
 import java.util.*;
 
-import com.project.product.Repository.ProductRepository;
 import com.project.product.entity.Product;
+import com.project.product.repository.ProductRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

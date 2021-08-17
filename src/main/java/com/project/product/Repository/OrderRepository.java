@@ -1,4 +1,4 @@
-package com.project.product.Repository;
+package com.project.product.repository;
 
 import com.project.product.entity.OrderEntity;
 

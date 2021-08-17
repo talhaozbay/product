@@ -1,10 +1,10 @@
-package com.project.product.Service;
+package com.project.product.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.project.product.Repository.OrderRepository;
 import com.project.product.entity.OrderEntity;
+import com.project.product.repository.OrderRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

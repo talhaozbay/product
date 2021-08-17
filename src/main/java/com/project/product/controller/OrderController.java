@@ -1,8 +1,10 @@
-package com.project.product.Controller;
+package com.project.product.controller;
 
 import java.util.List;
-import com.project.product.Service.OrderService;
+
 import com.project.product.entity.OrderEntity;
+import com.project.product.service.OrderService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
