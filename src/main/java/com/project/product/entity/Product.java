@@ -77,4 +77,5 @@ public class Product {
     public void setUnitprice(double unitprice) {
         this.unitprice = unitprice;
     }
+    
 }

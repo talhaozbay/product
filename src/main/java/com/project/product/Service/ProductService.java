@@ -1,9 +1,9 @@
-package com.project.product.Service;
+package com.project.product.service;
 
 import java.util.*;
 
-import com.project.product.Repository.ProductRepository;
 import com.project.product.entity.Product;
+import com.project.product.repository.ProductRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,8 +36,8 @@ public class ProductService {
         productRepository.deleteById(id);
     }
     //update
-    // public void update(Product product , Long productId){
-    //     productRepository.save(product);
-    // }
+    public Product updateProduct(Product product){
+        return productRepository.save(product);
+    }
 
 }
